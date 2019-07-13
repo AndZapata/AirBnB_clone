@@ -34,6 +34,7 @@
   height: 100%;
   width: 25%;
   position: relative;
+  z-index: 1;
 }
 
 .filters .locations h3,
@@ -61,7 +62,7 @@
   background: #FAFAFA;
   border: 1px solid #DDDDDD;
   border-radius: 4px;
-  visibility: hidden;
+  display: none;
   position: absolute;
   padding: 0;
   margin: 0;
@@ -70,7 +71,7 @@
 
 .filters .locations:hover .popover,
 .filters .amenities:hover .popover {
-  visibility: visible;
+  display: block;
 }
 
 .filters ul {
