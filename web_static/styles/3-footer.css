@@ -7,7 +7,7 @@ footer {
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    position: absolute;
+    position: relative;
     bottom: 0;
 
 }

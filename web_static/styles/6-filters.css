@@ -61,7 +61,7 @@
   background: #FAFAFA;
   border: 1px solid #DDDDDD;
   border-radius: 4px;
-  display: none;
+  visibility: hidden;
   position: absolute;
   padding: 0;
   margin: 0;
@@ -70,7 +70,7 @@
 
 .filters .locations:hover .popover,
 .filters .amenities:hover .popover {
-  display: block;
+  visibility: visible;
 }
 
 .filters ul {
