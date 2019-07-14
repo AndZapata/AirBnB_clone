@@ -1,3 +1,6 @@
+.places {
+  margin-bottom: 60px;
+}
 .boxes {
     display: flex;
     justify-content: center;
@@ -28,7 +31,7 @@
 
 .places .price_by_night {
   color: #ff5a5f;
-  border: #ff5a5f solid 3px;
+  border: #ff5a5f solid 4px;
   border-radius: 50%;
   min-width: 60px;
   height: 60px;
